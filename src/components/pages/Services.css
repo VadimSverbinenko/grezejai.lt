@@ -1,0 +1,71 @@
+.price{
+    background-color: #2d0c3f;
+    padding-bottom: 400px;
+}
+.mobText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+    padding: 24px;
+    color: #fff;
+    font-size: inherit;
+
+}
+.text{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+    padding: 24px;
+    color: #fff;
+    font-size: large;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.services {
+  
+    background-image: url('../../img/images/img-10.jpg');
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    color:black;
+    font-size:100px;
+    max-width: 100%;
+    margin-top: -100px;
+  
+    
+    object-fit: cover;
+    
+    
+  }
+
+
+  .mobService {
+  
+    background-image: url('../../img/images/img-10.jpg');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color:black;
+    font-size:150px;
+    max-width: 100%;
+    margin-bottom: -130px;
+    margin-top: 22px;
+  
+    
+    object-fit: cover;
+    background-size: contain;
+    
+  }
+  li{
+    margin-left: 22px;
+  }
+ 
