@@ -38,12 +38,12 @@ sklandaus atiskaitymo už suteiktas paslaugas.
       </div>
       <section class='social-media'>
         <div class='social-media-wrap'>
-          <div class='footer-logo'>
+          {/* <div class='footer-logo'>
             <Link to='/' className='social-logo'>
             <i class='fab fa-chrome' />
             &nbsp;GREZEJAI.LT
             </Link>
-          </div>
+          </div> */}
           <small class='website-rights'>GREZEJAI.LT © 2020</small>
           <div class='social-icons'>
             <Link
@@ -55,12 +55,12 @@ sklandaus atiskaitymo už suteiktas paslaugas.
               <i class='fab fa-facebook-f' />
             </Link>
             <Link
-              class='social-icon-link instagram'
-              to='//www.google.com/'
+              class='social-icon-link gmail'
+              to='//mail.google.com/mail'
               target='_blank'
               aria-label='Instagram'
             >
-              <i class='fab fa-instagram' />
+              <i class="far fa-envelope"/>
             </Link>
 
             <Link

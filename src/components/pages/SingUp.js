@@ -21,7 +21,7 @@ let changing = window.innerWidth <= 960 ? 'sizing' : 'sizing1'
         <li>Paulius +37067311326</li>
         <li>Deimantas +37067474129</li>
         <li><p>El. paštas: info@grezejai.lt</p></li>
-        <li><p>FB: https://www.facebook.com/DeimantasPaulius</p></li>
+        <li><p>FB: facebook.com/DeimantasPaulius</p></li>
       </ul>
       
       </div>
