@@ -16,7 +16,7 @@ function MainSection() {
             <li>tiksliai, be kalimo ir jokių įtrūkimų</li>
           </ul>
         </div>
-        <div>
+        <div className="secondColum">
           <ul>
             <h3>Iš užsakovų laukiame:</h3>
             <li>

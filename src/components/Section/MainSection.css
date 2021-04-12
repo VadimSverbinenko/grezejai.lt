@@ -7,11 +7,11 @@ video {
 }
 
 .hero-container {
-  /* background: url('../../../public/images/img-home.jpg') center center/cover no-repeat; */
-  background: url("../../img/images/hole.jpg") no-repeat;
-  background-size: 99%;
+  background: url("https://contentgrid.homedepot-static.com/hdus/en_US/DTCCOMNEW/Articles/types-of-drill-bits-section-20-A.jpg")
+    no-repeat;
+  background-size: 100%;
   background-color: rgb(30, 10, 46);
-  height: 80vh;
+  height: 70vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -59,18 +59,75 @@ ul {
 .fa-play-circle {
   margin-left: 4px;
 }
+.header {
+  margin-top: -159px;
+  /* margin-top: 382px; */
+  padding-left: 33px;
+  margin-bottom: 49px;
+  display: flex;
+}
+.secondColum {
+  margin-left: 58px;
+  width: 463px;
+}
+li {
+  font-size: 14px;
+}
 
 @media screen and (max-width: 960px) {
+  .hero-container {
+    background: url("../../img/images/hole.jpg") no-repeat;
+    background-size: 100%;
+    background-color: rgb(30, 10, 46);
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
+  .secondColum {
+    margin-left: auto;
+    width: auto;
+  }
   .hero-container > h1 {
     font-size: 70px;
     margin-top: -150px;
   }
+  .header {
+    margin-top: 382px;
+    padding-left: 33px;
+    margin-bottom: 49px;
+    display: block;
+  }
+  li {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 768px) {
+  .hero-container {
+    background: url("../../img/images/hole.jpg") no-repeat;
+    background-size: 100%;
+    background-color: rgb(30, 10, 46);
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
   .hero-container > h1 {
     font-size: 50px;
     margin-top: -100px;
+  }
+  .secondColum {
+    margin-left: auto;
+    width: auto;
   }
 
   .hero-container > p {
@@ -87,12 +144,13 @@ ul {
     width: 100%;
     cursor: "pointer";
   }
-}
-
-.header {
-  margin-top: 382px;
-  padding-left: 33px;
-}
-li {
-  font-size: 12px;
+  .header {
+    margin-top: 204px;
+    padding-left: 33px;
+    margin-bottom: 25px;
+    display: block;
+  }
+  li {
+    font-size: 12px;
+  }
 }

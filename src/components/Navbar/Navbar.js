@@ -1,9 +1,7 @@
-
-import React, { useState, useEffect } from 'react'
-import { Button } from './Button'
-import { Link } from 'react-router-dom'
-import './Navbar.css'
-
+import React, { useState, useEffect } from "react";
+import { Button } from "./Button";
+import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -24,45 +22,42 @@ function Navbar() {
     showButton();
   }, []);
 
-  window.addEventListener('resize', showButton);
+  window.addEventListener("resize", showButton);
 
   return (
     <>
-      <nav className='navbar'>
-        <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          <i class='fab fa-chrome' />
-            &nbsp;GREZEJAI.LT
+      <nav className="navbar">
+        <div className="navbar-container">
+          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+            &nbsp;&nbsp;GREZEJAI.LT
           </Link>
           <p className="sizingSmallText">
-            Skylių gręžimas profesionalia deimantinio gręžimo mašina per betoną, gelžbetonį, blokelius, plytas, akmenis.
-            </p>
-          
-          
-          
-          
-          <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+            Skylių gręžimas profesionalia deimantinio gręžimo mašina per betoną,
+            gelžbetonį, blokelius, plytas, akmenis.
+          </p>
+
+          <div className="menu-icon" onClick={handleClick}>
+            <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <li className="nav-item">
+              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                 Pagrindinis
               </Link>
             </li>
-            <li className='nav-item'>
+            <li className="nav-item">
               <Link
-                to='/services'
-                className='nav-links'
+                to="/services"
+                className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Kainynas
               </Link>
             </li>
-            <li className='nav-item'>
+            <li className="nav-item">
               <Link
-                to='/products'
-                className='nav-links'
+                to="/products"
+                className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Galerija
@@ -71,8 +66,8 @@ function Navbar() {
 
             <li>
               <Link
-                to='/sign-up'
-                className='nav-links'
+                to="/sign-up"
+                className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Kontaktai
@@ -81,7 +76,6 @@ function Navbar() {
           </ul>
           {/* {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}
         </div>
-       
       </nav>
     </>
   );
